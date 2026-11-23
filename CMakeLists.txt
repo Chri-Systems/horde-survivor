@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 find_package(raylib CONFIG REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 
-target_link_libraries(client PRIVATE
+target_link_libraries(horde_survivor PRIVATE
         raylib
         glfw
 )
