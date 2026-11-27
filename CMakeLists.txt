@@ -3,7 +3,9 @@ project(horde_survivor)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(horde_survivor main.cpp)
+add_executable(horde_survivor main.cpp
+        global.h
+        player.h)
 
 find_package(raylib CONFIG REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
